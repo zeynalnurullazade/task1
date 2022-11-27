@@ -1,0 +1,141 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500;700&display=swap');
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+
+}
+
+header {
+background-color:#2678d8;
+display: flex;
+flex-direction:  column;
+
+}
+
+
+a {
+    color:#fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+marquee {
+    color: #fff;
+}
+
+.header-top {
+    
+    display: flex;
+    justify-content:  space-between;
+    align-items:  center;
+    padding: 0 112px;
+}
+  
+
+h1 {
+    font-size: 20px;
+}
+h1 span {
+    color:#2678d8;
+}
+
+h2 {
+    font-size: 20px;
+}
+h2 span {
+    color: #2678d8;
+}
+h3 {
+    font-size: 20px;
+}
+h3 span {
+    color:#2678d8;
+}
+h4{
+    font-size: 20px;
+}
+h4 span {
+    color:#2678d8
+}
+h1 {
+    font-size: 20px;
+}
+h1 span{
+    color:#2678d8;
+}
+h2{
+    font-size: 20px;
+}
+h2 span {
+    color: #2678d8;
+}
+h3{
+    font-size: 20px;
+}
+h3 span{
+    color:#2678d8;
+}
+h4{
+    font-size: 20px;
+}
+h4 span{
+    color:#2678d8;
+}
+section {
+    display: flex;
+    align-items:center;
+    flex-wrap:wrap;
+    
+}
+section >.left-side {
+flex-basis:50%;
+
+min-width:400px;
+}
+section >.right-side{
+flex:1;
+
+min-width:400px;
+}
+.input{
+    width: 100%;
+}
+ input{
+    width:100%;
+    height: 50px;
+    margin-bottom: 10px;
+}
+textarea{
+    width:100%;
+    height: 50px;
+    margin-bottom: 10px;
+    resize: none;
+}
+input,textarea{
+    outline: none;
+}
+button{
+    padding:10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.iframe > .left-side > iframe {
+    width:70%;
+}
+footer{
+    padding: 20px;
+    text-align: center ;
+    
+}
+
+.header-bottom > input {
+    width: 100%;
+}
+
